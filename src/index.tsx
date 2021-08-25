@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './globals.scss'
+import { App } from '@/App';
 
-const App = (): JSX.Element => <h1>React App</h1>;
+import '@/globals.scss'
 
 ReactDOM.render(<App />, document.getElementById('root'));
