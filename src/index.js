@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './globals.css'
+import './globals.scss'
 
 const App = () => <h1>React App</h1>;
 
