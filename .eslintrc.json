@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb-typescript"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "import/prefer-default-export": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "import/extensions": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "class-methods-use-this": "off"
+  }
+}
