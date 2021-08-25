@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rm -rf ./dist && mkdir -p ./dist && cp -R ./public/** ./dist && npx webpack",
     "build@dev": "npm run build -- --mode development",
-    "build@prod": "npm run build -- --mode production"
+    "build@prod": "npm run build -- --mode production",
+    "start": "node ./server.js"
   },
   "keywords": [],
   "author": "",
